@@ -1,4 +1,4 @@
-# FS Notes
+# FS Gallery
 
 A WordPress Fromscratch Child Theme by Thomas Villain @ anybodesign.com
 To showcase your art!
