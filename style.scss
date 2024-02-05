@@ -1,0 +1,35 @@
+/*!
+Theme Name: FS Gallery
+Author: Thomas Villain
+Author URI: https://anybodesign.com/
+Description: A FS Child Theme for showcasing your art.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fs_gallery
+Tags: one-column, two-columns, right-sidebar, custom-menu, editor-style, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
+
+Template: from-scratch
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+// Parent CSS
+@import '../from-scratch/sass/_variables.scss';
+@import '../from-scratch/sass/_variables-fonts.scss';
+@import '../from-scratch/sass/_mixins.scss';
+
+// Vars
+@import 'sass/_mixins.scss';
+@import 'sass/_vars.scss';
+@import 'sass/_webfonts.scss';
+
+// Child CSS
+@import 'sass/header.scss';
+@import 'sass/nav.scss';
+@import 'sass/blocks.scss';
+@import 'sass/posts.scss';
+@import 'sass/content.scss';
+@import 'sass/footer.scss';

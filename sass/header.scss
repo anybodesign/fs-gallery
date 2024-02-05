@@ -1,0 +1,56 @@
+#site_head {
+	
+	& > .row {
+		position: relative;
+		padding: 1rem 0;
+		@include line(bottom);
+		
+		@include rwd(large) {
+			padding-top: 2rem 0;
+			margin-bottom: 2rem;
+		}
+	}
+	
+	.site-brand {
+		
+		.site-title {
+			text-transform: none;
+			
+			a {
+				text-decoration: none;
+				transition: .2s ease-in-out;
+				
+				&:hover,
+				&:focus {
+					background-color: var(--accent_color);
+				}
+			}
+		}
+	}
+}
+
+.sticky-nav {
+	
+	#site_head {
+		box-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.25);
+		
+		& > .row {
+			padding: 0;
+			margin-bottom: 0;
+			
+			&::after {
+				content: none;
+			}	
+		}
+		
+		.site-desc {
+			@include a11y-hidden();
+		}
+		.site-title {
+			font-size: 1.8rem;
+		}
+		.main-menu > li {
+			font-size: 1.6rem;
+		}
+	}
+}

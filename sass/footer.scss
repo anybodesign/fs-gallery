@@ -1,0 +1,21 @@
+// Footer
+
+#site_foot {
+	margin-top: 4rem;
+	
+	& > .row {
+		padding: 1rem 0;
+		@include line(top);
+	}
+
+}
+
+.footer-menu li a,
+.widgets-area p a {
+	
+	@include link-style-child();
+	
+	.white-text & {
+		@include link-style(dark);
+	}
+}

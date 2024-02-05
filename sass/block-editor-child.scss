@@ -1,0 +1,16 @@
+@import '_vars.scss';
+
+// Editor
+
+.editor-post-title,
+.editor-post-title .-post-title__input {
+	font-weight: normal;
+}
+
+.edit-post-visual-editor .wp-block,
+.block-editor-block-list__layout {
+	
+	@import 'blocks.scss';
+	
+	
+}
