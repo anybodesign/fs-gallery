@@ -107,6 +107,14 @@ p.meta-comments {
 		}
 		
 	}
+	
+	.page-content > & {
+		margin-top: -.2rem;
+		
+		@include rwd(large) {
+			margin-top: -2.2rem;
+		}
+	} 
 }
 
 .acf-block--gallery {
